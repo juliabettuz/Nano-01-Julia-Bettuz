@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DDD14574-A6E1-4F0E-97A7-E86F0616DC0F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "332C726D-1806-43AC-B040-40BA96A7233F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "agoraVai/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "touchMoved(toPoint:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "332C726D-1806-43AC-B040-40BA96A7233F - 8831f94247503cbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "332C726D-1806-43AC-B040-40BA96A7233F - 8831f94247503cbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "332C726D-1806-43AC-B040-40BA96A7233F - 8831f94247503c9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B0226A2-EDDD-42F7-AD47-385E24D10608"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "agoraVai/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "touchMoved(toPoint:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B0226A2-EDDD-42F7-AD47-385E24D10608 - 8831f94247503cd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "1B0226A2-EDDD-42F7-AD47-385E24D10608 - 8831f94247503c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
