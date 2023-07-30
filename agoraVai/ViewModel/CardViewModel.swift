@@ -8,7 +8,7 @@
 import SwiftUI
 
 class CardViewModel: ObservableObject {
-    @Published var current: Cards = Cards.returnCard(current: .card1)
+    @Published var current: Cards = Cards.returnCard(current: .card0)
     
     func leftSwipe() {
         if let nextCard = current.leftChoice?.nextCard {

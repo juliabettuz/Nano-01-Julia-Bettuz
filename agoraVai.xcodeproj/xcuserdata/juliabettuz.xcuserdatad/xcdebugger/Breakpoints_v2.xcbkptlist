@@ -112,6 +112,21 @@
                   endingLineNumber = "146"
                   offsetFromSymbolStart = "728">
                </Location>
+               <Location
+                  uuid = "1B0226A2-EDDD-42F7-AD47-385E24D10608 - 8831f94247503c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "agoraVai.GameScene.touchMoved(toPoint: __C.CGPoint) -&gt; ()"
+                  moduleName = "agoraVai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabettuz/Downloads/Documentos/Nano%2001%20Pasta/Nano01/Nano01/agoraVai/agoraVai/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "732">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

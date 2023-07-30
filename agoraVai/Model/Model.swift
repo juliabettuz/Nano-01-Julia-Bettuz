@@ -9,6 +9,7 @@ import Foundation
 import SpriteKit
 
 enum Card {
+    case card0
     case card1
     case card2
     case card3
@@ -57,22 +58,29 @@ struct Cards: Equatable {
     
     static func returnCard(current: Card) -> Cards {
         switch current {
+        case .card0:
+            return Cards(text: "Welcome to Existential, a choose-your-own-adventure app about choosing. \n\nSelect the decisions by swiping this card left or right. Try it on this one to continue.",
+                         rightChoice: Choice(textChoice: "Continue", nextCard: .card1),
+                         leftChoice: Choice(textChoice: "Continue", nextCard: .card1),
+                          currentCard: .card0,
+                          nextCard: nil,
+                          cardColor: .systemGray5)
         case .card1:
             return Cards(text: "We make around 35,000 decisions per day. Around 120 of those are informed decisions: what to eat, what to dress, what to watch. \n\nAnd, of course, the more impactful ones about our relationships, careers and identities.",
-                          rightChoice: nil,
-                          leftChoice: nil,
+                         rightChoice: Choice(textChoice: "Continue", nextCard: .card2),
+                         leftChoice: Choice(textChoice: "Continue", nextCard: .card2),
                           currentCard: .card1,
-                          nextCard: .card2,
+                          nextCard: nil,
                           cardColor: .systemGray5)
         case .card2:
             return Cards(text: "All of our decisions shape our lives. That's why it's important to reflect: are you being authentic in your decisions? \n\nAccording to Sartre's existentialism, you are always free to choose what to do and acknowledging that is the only way to live authentically.",
-                  rightChoice: nil,
-                  leftChoice: nil,
+                rightChoice: Choice(textChoice: "Continue", nextCard: .card3),
+                leftChoice: Choice(textChoice: "Continue", nextCard: .card3),
                   currentCard: .card2,
-                  nextCard: .card3,
+                  nextCard: nil,
                   cardColor: .systemGray5)
         case .card3:
-            return Cards(text: "Make a few decisions and reflect on your own life and existentialism.\n\nThere's no right or wrong answer, take the time to think about yourself. \n\nSelect the decisions by swiping this card left or right. Try it on this one.",
+            return Cards(text: "Make a few decisions and reflect on your own life and existentialism.\n\nThere's no right or wrong answer, take the time to think about yourself.",
                                      rightChoice: Choice(textChoice: "Continue ->", nextCard: .card4),
                                      leftChoice: Choice(textChoice: "<- Continue", nextCard: .card4),
                                      currentCard: .card3,
@@ -112,8 +120,8 @@ struct Cards: Equatable {
             
         case .split3:
             return Cards(text: "Not choosing is also choosing. \n\nAccording to Sartre, fear is unavoidable if you want to act and your actions reflect who you are.",
-                         rightChoice: Choice(textChoice: "Continue", nextCard: .card6),
-                         leftChoice: Choice(textChoice: "Continue", nextCard: .card6),
+                         rightChoice: Choice(textChoice: "Continue", nextCard: .impossible),
+                         leftChoice: Choice(textChoice: "Continue", nextCard: .impossible),
                          currentCard: .split3,
                          nextCard: nil,
                          cardColor: .systemGray5)
@@ -130,7 +138,7 @@ struct Cards: Equatable {
             return Cards(text: "The company you work for is in a difficult situation. A significant shareholder meeting is near, and your boss is suggesting that you manipulate the financial data.\n\nIf you present the actual numbers, it is very likely that you and hundreds of other employees will lose your jobs.\n\nHowever, if you slightly manipulate the data, you might be able to save your jobs and gain a few months to help the company truly recover.\n\nWhat do you do?",
                          rightChoice: Choice(textChoice: "Fudge \nthe numbers", nextCard: .card7),
                          leftChoice: Choice(textChoice: "Don't fudge \nthe numbers", nextCard: .card7),
-                         currentCard: .card6,
+                         currentCard: .impossible,
                          nextCard: nil,
                          cardColor: .black)
             
@@ -144,8 +152,8 @@ struct Cards: Equatable {
             
         case .end:
             return Cards(text: "Thanks for playing! \n\nThis app is made by someone who's interested in existentialism, not a philosopher or psychologist.\n\nIf you're interested in learning about Sartre's existentialism, start by googling about it, watching a few YouTube videos, and, of course, reading his books, such as Existentialism is a Humanism.",
-                         rightChoice: Choice(textChoice: "Continue", nextCard: .card1),
-                         leftChoice: Choice(textChoice: "Continue", nextCard: .card1),
+                         rightChoice: Choice(textChoice: "Continue", nextCard: .card0),
+                         leftChoice: Choice(textChoice: "Continue", nextCard: .card0),
                          currentCard: .split1,
                          nextCard: nil,
                          cardColor: .systemGray5)

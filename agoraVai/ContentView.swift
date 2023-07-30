@@ -35,7 +35,7 @@ struct ContentView: View {
                 StackCardView(cardViewModel: cardViewModel)
                 
             }
-            .padding(.top, 30)
+//            .padding(.top, 30)
             .padding()
             .padding(.vertical)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
